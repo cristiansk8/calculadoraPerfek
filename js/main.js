@@ -28,7 +28,7 @@ function calcular() {
     //se envian valores a html
     cuotaInicial.innerHTML = valorCuotaI;
     cuotaSeparacion.innerHTML = valorcuotaSepracion;
-    cuota.innerHTML = valorCuota;
+    cuota.innerHTML = Math.round(valorCuota);
     financiado.innerHTML = valorFinanciado;
 
     console.log(vi);
